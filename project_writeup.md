@@ -15,6 +15,7 @@ This project is to implement forward and inverse kinematics to control a Kuka KR
 [image3]: ./misc_images/misc3.png
 [figure_theta123]: ./misc_images/figure_theta123.png
 [r3_6]: ./misc_images/r3_6.png
+[result]: ./misc_images/result.png
 
 
 ## 2. Forward Kinematic Analysis
@@ -185,3 +186,6 @@ All the above methods are implemented in the `IK_server.py` file which is proper
 - Got this error {`Received 0 eef-poses from the plan No valid poses received`} once and failed that cycle. I think it came from the eef-poses sender.
 
 
+Here's a figure to show the result, it missed 1 cylinder out of 10 because of the above error.
+
+![][result]
